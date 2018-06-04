@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Geomanist-Light.otf">
+            <string>Geomanist-Light</string>
+        </array>
+        <array key="mercury_bold-webfont.ttf">
+            <string>MercuryBold-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Welcome-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Welcome" id="BYZ-38-t0r" customClass="ViewController" customModule="MeditoV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="1Ci-Yh-FOJ">
+                                <rect key="frame" x="30" y="428" width="315" height="199"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome in Medito" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDQ-NT-ccs">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="31"/>
+                                        <fontDescription key="fontDescription" name="MercuryBold-Regular" family="Mercury" pointSize="26"/>
+                                        <color key="textColor" red="0.4549019608" green="0.078431372550000003" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anyone can practice meditation. Even you. Meditation allows you to create a space between yourself and each of your thoughts." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxV-QE-hYk">
+                                        <rect key="frame" x="0.0" y="56" width="315" height="68"/>
+                                        <fontDescription key="fontDescription" name="Geomanist-Light" family="Geomanist" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJm-xT-Dbm">
+                                        <rect key="frame" x="0.0" y="149" width="315" height="50"/>
+                                        <color key="backgroundColor" red="0.90980392160000001" green="0.1647058824" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="blh-gi-Zlk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MercuryBold-Regular" family="Mercury" pointSize="22"/>
+                                        <state key="normal" title="Start now">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="wjJ-KC-cxi" kind="showDetail" id="aq2-AZ-KZO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding" highlightedImage="onboarding" translatesAutoresizingMaskIntoConstraints="NO" id="AXi-5J-LVE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="405"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="400" id="Dmk-Tv-eZX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AXi-5J-LVE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Evu-9o-9MU"/>
+                            <constraint firstItem="AXi-5J-LVE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UaX-ns-5Rz"/>
+                            <constraint firstItem="1Ci-Yh-FOJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="X5b-Qr-pgg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Ci-Yh-FOJ" secondAttribute="bottom" constant="40" id="aAv-JD-J19"/>
+                            <constraint firstItem="AXi-5J-LVE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eBt-lj-lI2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Ci-Yh-FOJ" secondAttribute="trailing" constant="30" id="xNJ-7Z-euF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="onboardingButton" destination="kJm-xT-Dbm" id="nol-mN-tna"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="132.68365817091455"/>
+        </scene>
+        <!--Meditate-->
+        <scene sceneID="6LD-vk-5rQ">
+            <objects>
+                <viewController title="Meditate" id="wjJ-KC-cxi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NMt-YW-1Gb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="theme" highlightedImage="theme" translatesAutoresizingMaskIntoConstraints="NO" id="rGh-8g-N5J">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="NbA-TV-tS9">
+                                <rect key="frame" x="40" y="50" width="295" height="107"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Themes to meditate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuJ-cW-DIS">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="31"/>
+                                        <fontDescription key="fontDescription" name="MercuryBold-Regular" family="Mercury" pointSize="26"/>
+                                        <color key="textColor" red="0.4549019608" green="0.078431372550000003" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be aware of the many benefits of meditation associated with regular practice." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2v-18-PxY">
+                                        <rect key="frame" x="0.0" y="56" width="295" height="51"/>
+                                        <fontDescription key="fontDescription" name="Geomanist-Light" family="Geomanist" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NbA-TV-tS9" firstAttribute="top" secondItem="xPx-Rn-bSa" secondAttribute="top" constant="30" id="4TF-qk-oai"/>
+                            <constraint firstItem="xPx-Rn-bSa" firstAttribute="trailing" secondItem="rGh-8g-N5J" secondAttribute="trailing" id="4Zk-ph-fbo"/>
+                            <constraint firstItem="xPx-Rn-bSa" firstAttribute="bottom" secondItem="rGh-8g-N5J" secondAttribute="bottom" id="Dvz-8T-zTM"/>
+                            <constraint firstItem="xPx-Rn-bSa" firstAttribute="trailing" secondItem="NbA-TV-tS9" secondAttribute="trailing" constant="40" id="Y1T-fb-NPe"/>
+                            <constraint firstItem="NbA-TV-tS9" firstAttribute="leading" secondItem="xPx-Rn-bSa" secondAttribute="leading" constant="40" id="lGw-Ue-Htk"/>
+                            <constraint firstItem="rGh-8g-N5J" firstAttribute="top" secondItem="xPx-Rn-bSa" secondAttribute="top" id="vu3-5j-m07"/>
+                            <constraint firstItem="rGh-8g-N5J" firstAttribute="leading" secondItem="xPx-Rn-bSa" secondAttribute="leading" id="x6i-7K-1vv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xPx-Rn-bSa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kc0-VJ-cYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="914" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="onboarding" width="375" height="405"/>
+        <image name="theme" width="375" height="667"/>
+    </resources>
+</document>

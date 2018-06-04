@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var onboardingButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        onboardingButton.layer.cornerRadius = 25;
     }
 
     override func didReceiveMemoryWarning() {

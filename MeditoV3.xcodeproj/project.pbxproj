@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		B23BAC8720C2F5BC00727B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23BAC8620C2F5BC00727B3A /* AppDelegate.swift */; };
-		B23BAC8920C2F5BC00727B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23BAC8820C2F5BC00727B3A /* ViewController.swift */; };
 		B23BAC8C20C2F5BC00727B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC8A20C2F5BC00727B3A /* Main.storyboard */; };
 		B23BAC8E20C2F5BC00727B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC8D20C2F5BC00727B3A /* Assets.xcassets */; };
 		B23BAC9120C2F5BC00727B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC8F20C2F5BC00727B3A /* LaunchScreen.storyboard */; };
+		B23BACA120C2F79400727B3A /* Geomanist-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC9C20C2F79400727B3A /* Geomanist-Book.otf */; };
+		B23BACA220C2F79400727B3A /* Geomanist-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC9D20C2F79400727B3A /* Geomanist-Light.otf */; };
+		B23BACA320C2F79400727B3A /* mercury_regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC9E20C2F79400727B3A /* mercury_regular-webfont.ttf */; };
+		B23BACA420C2F79400727B3A /* geomanist.otf in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC9F20C2F79400727B3A /* geomanist.otf */; };
+		B23BACA520C2F79400727B3A /* mercury_bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B23BACA020C2F79400727B3A /* mercury_bold-webfont.ttf */; };
+		B27C43BD20C58A510039ED16 /* MeditateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C43BC20C58A510039ED16 /* MeditateController.swift */; };
+		B27C43BF20C58A7E0039ED16 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C43BE20C58A7E0039ED16 /* WelcomeController.swift */; };
+		B27C43C120C5DD590039ED16 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C43C020C5DD590039ED16 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B23BAC8320C2F5BC00727B3A /* MeditoV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditoV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23BAC8620C2F5BC00727B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B23BAC8820C2F5BC00727B3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B23BAC8B20C2F5BC00727B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B23BAC8D20C2F5BC00727B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23BAC9020C2F5BC00727B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B23BAC9220C2F5BC00727B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23BAC9C20C2F79400727B3A /* Geomanist-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geomanist-Book.otf"; sourceTree = "<group>"; };
+		B23BAC9D20C2F79400727B3A /* Geomanist-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geomanist-Light.otf"; sourceTree = "<group>"; };
+		B23BAC9E20C2F79400727B3A /* mercury_regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mercury_regular-webfont.ttf"; sourceTree = "<group>"; };
+		B23BAC9F20C2F79400727B3A /* geomanist.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = geomanist.otf; sourceTree = "<group>"; };
+		B23BACA020C2F79400727B3A /* mercury_bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mercury_bold-webfont.ttf"; sourceTree = "<group>"; };
+		B27C43BC20C58A510039ED16 /* MeditateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateController.swift; sourceTree = "<group>"; };
+		B27C43BE20C58A7E0039ED16 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		B27C43C020C5DD590039ED16 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,37 @@
 		B23BAC8520C2F5BC00727B3A /* MeditoV3 */ = {
 			isa = PBXGroup;
 			children = (
+				B27C43B920C587F80039ED16 /* Controllers */,
+				B23BAC9B20C2F76F00727B3A /* Ressources */,
 				B23BAC8620C2F5BC00727B3A /* AppDelegate.swift */,
-				B23BAC8820C2F5BC00727B3A /* ViewController.swift */,
 				B23BAC8A20C2F5BC00727B3A /* Main.storyboard */,
 				B23BAC8D20C2F5BC00727B3A /* Assets.xcassets */,
 				B23BAC8F20C2F5BC00727B3A /* LaunchScreen.storyboard */,
 				B23BAC9220C2F5BC00727B3A /* Info.plist */,
 			);
 			path = MeditoV3;
+			sourceTree = "<group>";
+		};
+		B23BAC9B20C2F76F00727B3A /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				B23BAC9C20C2F79400727B3A /* Geomanist-Book.otf */,
+				B23BAC9D20C2F79400727B3A /* Geomanist-Light.otf */,
+				B23BAC9F20C2F79400727B3A /* geomanist.otf */,
+				B23BACA020C2F79400727B3A /* mercury_bold-webfont.ttf */,
+				B23BAC9E20C2F79400727B3A /* mercury_regular-webfont.ttf */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		B27C43B920C587F80039ED16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B27C43BC20C58A510039ED16 /* MeditateController.swift */,
+				B27C43BE20C58A7E0039ED16 /* WelcomeController.swift */,
+				B27C43C020C5DD590039ED16 /* CollectionViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +160,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23BACA520C2F79400727B3A /* mercury_bold-webfont.ttf in Resources */,
 				B23BAC9120C2F5BC00727B3A /* LaunchScreen.storyboard in Resources */,
 				B23BAC8E20C2F5BC00727B3A /* Assets.xcassets in Resources */,
+				B23BACA320C2F79400727B3A /* mercury_regular-webfont.ttf in Resources */,
+				B23BACA420C2F79400727B3A /* geomanist.otf in Resources */,
+				B23BACA220C2F79400727B3A /* Geomanist-Light.otf in Resources */,
 				B23BAC8C20C2F5BC00727B3A /* Main.storyboard in Resources */,
+				B23BACA120C2F79400727B3A /* Geomanist-Book.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B23BAC8920C2F5BC00727B3A /* ViewController.swift in Sources */,
 				B23BAC8720C2F5BC00727B3A /* AppDelegate.swift in Sources */,
+				B27C43BF20C58A7E0039ED16 /* WelcomeController.swift in Sources */,
+				B27C43C120C5DD590039ED16 /* CollectionViewCell.swift in Sources */,
+				B27C43BD20C58A510039ED16 /* MeditateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

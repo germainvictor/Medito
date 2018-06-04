@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Geomanist-Book.otf</string>
+		<string>Geomanist-Light.otf</string>
+		<string>geomanist.otf</string>
+		<string>mercury_bold-webfont.ttf</string>
+		<string>mercury_regular-webfont.ttf</string>
+	</array>
 </dict>
 </plist>
