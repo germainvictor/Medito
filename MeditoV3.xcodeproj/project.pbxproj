@@ -19,6 +19,8 @@
 		B27C43BD20C58A510039ED16 /* MeditateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C43BC20C58A510039ED16 /* MeditateController.swift */; };
 		B27C43BF20C58A7E0039ED16 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C43BE20C58A7E0039ED16 /* WelcomeController.swift */; };
 		B27C43C120C5DD590039ED16 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C43C020C5DD590039ED16 /* CollectionViewCell.swift */; };
+		B2AD857420C8849E00DEC3B9 /* DetailsMeditateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD857320C8849E00DEC3B9 /* DetailsMeditateViewController.swift */; };
+		B2AD857620C890B100DEC3B9 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD857520C890B100DEC3B9 /* Meditation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		B27C43BC20C58A510039ED16 /* MeditateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateController.swift; sourceTree = "<group>"; };
 		B27C43BE20C58A7E0039ED16 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		B27C43C020C5DD590039ED16 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B2AD857320C8849E00DEC3B9 /* DetailsMeditateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMeditateViewController.swift; sourceTree = "<group>"; };
+		B2AD857520C890B100DEC3B9 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 				B23BAC8D20C2F5BC00727B3A /* Assets.xcassets */,
 				B23BAC8F20C2F5BC00727B3A /* LaunchScreen.storyboard */,
 				B23BAC9220C2F5BC00727B3A /* Info.plist */,
+				B2AD857720C8914B00DEC3B9 /* Data */,
 			);
 			path = MeditoV3;
 			sourceTree = "<group>";
@@ -97,8 +102,18 @@
 				B27C43BC20C58A510039ED16 /* MeditateController.swift */,
 				B27C43BE20C58A7E0039ED16 /* WelcomeController.swift */,
 				B27C43C020C5DD590039ED16 /* CollectionViewCell.swift */,
+				B2AD857320C8849E00DEC3B9 /* DetailsMeditateViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B2AD857720C8914B00DEC3B9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD857520C890B100DEC3B9 /* Meditation.swift */,
+			);
+			name = Data;
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +195,8 @@
 			files = (
 				B23BAC8720C2F5BC00727B3A /* AppDelegate.swift in Sources */,
 				B27C43BF20C58A7E0039ED16 /* WelcomeController.swift in Sources */,
+				B2AD857420C8849E00DEC3B9 /* DetailsMeditateViewController.swift in Sources */,
+				B2AD857620C890B100DEC3B9 /* Meditation.swift in Sources */,
 				B27C43C120C5DD590039ED16 /* CollectionViewCell.swift in Sources */,
 				B27C43BD20C58A510039ED16 /* MeditateController.swift in Sources */,
 			);
