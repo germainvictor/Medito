@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import AVFoundation
 
 class Meditation {
     
@@ -18,6 +19,6 @@ class Meditation {
     init(_ title: String, _ image: String, _ sound: String) {
         self.title = title
         self.image = UIImage(named: image)!
-        self.sound = sound
+        self.sound = Bundle.main.path(forResource: sound, ofType: "mp3")!
     }
 }

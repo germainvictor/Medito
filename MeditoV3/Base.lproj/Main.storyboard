@@ -156,7 +156,7 @@
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="5"/>
+                                                <integer key="value" value="12"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -199,10 +199,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pd-e0-9Hw">
-                                <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pd-e0-9Hw">
+                                <rect key="frame" x="20" y="29.5" width="30" height="30"/>
                                 <connections>
                                     <action selector="buttonExit:" destination="IT8-SC-aBT" eventType="touchUpInside" id="dqC-w5-aiC"/>
                                 </connections>
@@ -230,27 +228,86 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2C-Jg-3eV">
+                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.1647058824" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="h5d-32-lEq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBound" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="labelPlayPause:" destination="IT8-SC-aBT" eventType="touchUpInside" id="ez0-QT-4Vi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sx2-OA-Lnz">
+                                <rect key="frame" x="77" y="329" width="30" height="30"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="sXo-tK-gA5" eventType="touchUpInside" id="uFL-2D-e7B"/>
+                                    <action selector="buttonBack:" destination="IT8-SC-aBT" eventType="touchUpInside" id="wgP-L7-zbA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcW-mJ-pHW">
+                                <rect key="frame" x="267" y="329" width="30" height="30"/>
+                                <connections>
+                                    <action selector="buttonNext:" destination="IT8-SC-aBT" eventType="touchUpInside" id="29W-LN-pX3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCy-oG-U8G">
+                                <rect key="frame" x="235" y="30" width="120" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="MercuryBold-Regular" family="Mercury" pointSize="14"/>
+                                <state key="normal" title=" More thematiques">
+                                    <color key="titleColor" red="0.90980392160000001" green="0.1647058824" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="IvA-8r-BRz" firstAttribute="top" secondItem="j2C-Jg-3eV" secondAttribute="bottom" constant="78" id="1Ar-F7-tat"/>
+                            <constraint firstItem="3Pd-e0-9Hw" firstAttribute="leading" secondItem="1OO-IN-KW8" secondAttribute="leading" constant="20" id="6e2-iQ-1kv"/>
                             <constraint firstItem="1OO-IN-KW8" firstAttribute="trailing" secondItem="IvA-8r-BRz" secondAttribute="trailing" id="BEN-ss-j7v"/>
                             <constraint firstItem="GcE-fG-zgh" firstAttribute="leading" secondItem="1OO-IN-KW8" secondAttribute="leading" constant="30" id="DIO-Xo-abT"/>
                             <constraint firstItem="1OO-IN-KW8" firstAttribute="trailing" secondItem="GcE-fG-zgh" secondAttribute="trailing" id="DoI-4P-YY1"/>
+                            <constraint firstItem="pcW-mJ-pHW" firstAttribute="leading" secondItem="j2C-Jg-3eV" secondAttribute="trailing" constant="30" id="Fu5-EZ-wY6"/>
+                            <constraint firstItem="kCy-oG-U8G" firstAttribute="top" secondItem="1OO-IN-KW8" secondAttribute="top" constant="10" id="T3J-Mx-c7f"/>
                             <constraint firstItem="IvA-8r-BRz" firstAttribute="leading" secondItem="1OO-IN-KW8" secondAttribute="leading" id="TCw-sL-6gV"/>
+                            <constraint firstItem="j2C-Jg-3eV" firstAttribute="leading" secondItem="Sx2-OA-Lnz" secondAttribute="trailing" constant="30" id="Tmd-ko-Sax"/>
                             <constraint firstItem="1OO-IN-KW8" firstAttribute="bottom" secondItem="IvA-8r-BRz" secondAttribute="bottom" id="Y4N-7M-Fb3"/>
+                            <constraint firstItem="j2C-Jg-3eV" firstAttribute="centerX" secondItem="IvA-8r-BRz" secondAttribute="centerX" id="Yep-ce-HPR"/>
+                            <constraint firstItem="1OO-IN-KW8" firstAttribute="trailing" secondItem="kCy-oG-U8G" secondAttribute="trailing" constant="20" id="a7v-Xa-EOg"/>
+                            <constraint firstItem="j2C-Jg-3eV" firstAttribute="centerY" secondItem="RNy-gC-jhb" secondAttribute="centerY" id="cBd-X3-dGD"/>
+                            <constraint firstItem="pcW-mJ-pHW" firstAttribute="centerY" secondItem="1OO-IN-KW8" secondAttribute="centerY" id="fyT-ee-JKn"/>
+                            <constraint firstItem="3Pd-e0-9Hw" firstAttribute="centerY" secondItem="kCy-oG-U8G" secondAttribute="centerY" id="jbb-3y-7cl"/>
+                            <constraint firstItem="Sx2-OA-Lnz" firstAttribute="centerY" secondItem="1OO-IN-KW8" secondAttribute="centerY" id="rWW-em-9hI"/>
                             <constraint firstItem="GcE-fG-zgh" firstAttribute="top" secondItem="1OO-IN-KW8" secondAttribute="top" constant="100" id="raF-v3-n55"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1OO-IN-KW8"/>
                     </view>
-                    <navigationItem key="navigationItem" id="v8Z-Pb-v1A"/>
                     <connections>
                         <outlet property="LabelTitle" destination="MW5-tc-Zhg" id="N5o-oW-F3Y"/>
+                        <outlet property="buttonBack" destination="Sx2-OA-Lnz" id="fIk-Id-2q0"/>
+                        <outlet property="buttonMore" destination="kCy-oG-U8G" id="AMd-bl-sFM"/>
+                        <outlet property="buttonNavBack" destination="3Pd-e0-9Hw" id="cfS-PL-ORQ"/>
+                        <outlet property="buttonPlayPause" destination="j2C-Jg-3eV" id="vaR-Kj-ivm"/>
+                        <outlet property="buttonRight" destination="pcW-mJ-pHW" id="x01-ru-Gvc"/>
                         <outlet property="labelSession" destination="ZbA-mN-uQk" id="DkJ-De-CIK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LuX-yV-6wm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="sXo-tK-gA5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2599.1999999999998" y="137.18140929535232"/>
+            <point key="canvasLocation" x="1688.8" y="132.68365817091455"/>
         </scene>
     </scenes>
     <resources>

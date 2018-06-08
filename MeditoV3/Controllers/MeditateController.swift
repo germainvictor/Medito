@@ -11,23 +11,22 @@ import UIKit
 class MeditateController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     @IBOutlet weak var CollectionView: UICollectionView!
-
+    
+    
+    
     let meditations = [
         Meditation("Sleeping better", "sleepingbetter", "sleepingbetter"),
-        Meditation("Less stressed", "lessstressed", "lessstressed"),
-        Meditation("Finding calm", "findingcalm", "findingcalm"),
-        Meditation("Managing anxiety", "managinganxiety", "managinganxiety"),
-        Meditation("More focused", "morefocused", "morefocused"),
-        Meditation("Just checking", "justchecking", "justchecking")
+        Meditation("Less stressed", "lessstressed", "sleepingbetter"),
+        Meditation("Finding calm", "findingcalm", "sleepingbetter"),
+        Meditation("Managing anxiety", "managinganxiety", "sleepingbetter"),
+        Meditation("More focused", "morefocused", "sleepingbetter"),
+        Meditation("Just checking", "justchecking", "sleepingbetter")
     ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         CollectionView.dataSource = self
         CollectionView.delegate = self
-        
-        print("ok")
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,6 +46,7 @@ class MeditateController: UIViewController, UICollectionViewDataSource, UICollec
         newViewController.meditation = meditations[indexPath.row]
         newViewController.index = indexPath.row
         newViewController.total = meditations.count
+        newViewController.allMeditations = meditations
         
         self.present(newViewController, animated: true, completion: nil)
     }
@@ -54,10 +54,6 @@ class MeditateController: UIViewController, UICollectionViewDataSource, UICollec
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let padding: CGFloat = 15
         let collectionViewSize = collectionView.frame.size.width - padding
-        
-        print("collectionView.frame.size.width \(collectionView.frame.size.width)")
-        print("collectionViewSize \(collectionViewSize)")
-        print("collectionViewSize/2 \(collectionViewSize/2)")
         
         return CGSize(width: collectionViewSize * 0.5, height: collectionViewSize * 0.4)
     }

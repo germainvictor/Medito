@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2137AED20C9D7A00001347E /* sleepingbetter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2137AEC20C9D0780001347E /* sleepingbetter.mp3 */; };
 		B23BAC8720C2F5BC00727B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23BAC8620C2F5BC00727B3A /* AppDelegate.swift */; };
 		B23BAC8C20C2F5BC00727B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC8A20C2F5BC00727B3A /* Main.storyboard */; };
 		B23BAC8E20C2F5BC00727B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23BAC8D20C2F5BC00727B3A /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2137AEC20C9D0780001347E /* sleepingbetter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sleepingbetter.mp3; sourceTree = "<group>"; };
 		B23BAC8320C2F5BC00727B3A /* MeditoV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditoV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23BAC8620C2F5BC00727B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B23BAC8B20C2F5BC00727B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2137AE720C9CF560001347E /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				B2137AEC20C9D0780001347E /* sleepingbetter.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
 		B23BAC7A20C2F5BC00727B3A = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		B23BAC8520C2F5BC00727B3A /* MeditoV3 */ = {
 			isa = PBXGroup;
 			children = (
+				B2137AE720C9CF560001347E /* Songs */,
 				B27C43B920C587F80039ED16 /* Controllers */,
 				B23BAC9B20C2F76F00727B3A /* Ressources */,
 				B23BAC8620C2F5BC00727B3A /* AppDelegate.swift */,
@@ -183,6 +194,7 @@
 				B23BACA220C2F79400727B3A /* Geomanist-Light.otf in Resources */,
 				B23BAC8C20C2F5BC00727B3A /* Main.storyboard in Resources */,
 				B23BACA120C2F79400727B3A /* Geomanist-Book.otf in Resources */,
+				B2137AED20C9D7A00001347E /* sleepingbetter.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
