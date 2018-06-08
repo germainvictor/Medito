@@ -17,6 +17,6 @@
 
 ```sh
 git clone https://github.com/germainvictor/Medito.git
-cd learning-ios
+cd medito
 open -a Xcode AppCours.xcworkspace
 ```
