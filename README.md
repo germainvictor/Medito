@@ -1,7 +1,6 @@
 # Medito
 
 ![GitHub Logo](logo.jpg)
-Format: ![Alt Text](url)
 
 ## Features
 
