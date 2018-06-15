@@ -1,17 +1,13 @@
-# Medito
-
-![alt text](https://ibb.co/eYNikJ)
-
-### Features
+## Features
 
 - [x] Basic UI / views
 - [x] Display results in a list
 
-### Stack used
+## Stack used
 
 - Swift `3`
 
-### Getting started
+## Getting started
 
 #### Requirements
 
