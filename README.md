@@ -1,6 +1,7 @@
 # Medito
 
-[Imgur](https://i.imgur.com/sgsWTxj.jpg)
+![GitHub Logo](logo.jpg)
+Format: ![Alt Text](url)
 
 ## Features
 
