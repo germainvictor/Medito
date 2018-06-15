@@ -1,3 +1,7 @@
+# Medito
+
+[Imgur](https://i.imgur.com/sgsWTxj.jpg)
+
 ## Features
 
 - [x] Basic UI / views
